@@ -1,0 +1,14 @@
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\bin\Debug\FontAwesome.Sharp.dll
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsF.EA766B00.Up2Date
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe.config
+F:\test\1\WindowsFormsApp1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
