@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp2
+namespace WindowsFormsApp2
 {
     partial class Form2
     {
@@ -28,12 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnRead = new System.Windows.Forms.Button();
-            this.rBtn = new System.Windows.Forms.Button();
-            this.btnDBVBandLoad = new System.Windows.Forms.Button();
             this.uiGroupBox1 = new WindowsFormsApp2.UIGroupBox();
+            this.btnRead = new System.Windows.Forms.Button();
+            this.btnDBVBandLoad = new System.Windows.Forms.Button();
+            this.rBtn = new System.Windows.Forms.Button();
             this.uiGroupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // uiGroupBox1
+            // 
+            this.uiGroupBox1.Controls.Add(this.btnRead);
+            this.uiGroupBox1.Controls.Add(this.btnDBVBandLoad);
+            this.uiGroupBox1.Controls.Add(this.rBtn);
+            this.uiGroupBox1.Location = new System.Drawing.Point(91, 12);
+            this.uiGroupBox1.Name = "uiGroupBox1";
+            this.uiGroupBox1.Size = new System.Drawing.Size(639, 257);
+            this.uiGroupBox1.TabIndex = 11;
+            this.uiGroupBox1.TabStop = false;
+            this.uiGroupBox1.Text = "uiGroupBox1";
+            this.uiGroupBox1.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.uiGroupBox1.TitleFont = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Bold);
             // 
             // btnRead
             // 
@@ -53,6 +67,18 @@
             this.btnRead.Text = "Read";
             this.btnRead.UseVisualStyleBackColor = false;
             // 
+            // btnDBVBandLoad
+            // 
+            this.btnDBVBandLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDBVBandLoad.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold);
+            this.btnDBVBandLoad.Location = new System.Drawing.Point(243, 141);
+            this.btnDBVBandLoad.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnDBVBandLoad.Name = "btnDBVBandLoad";
+            this.btnDBVBandLoad.Size = new System.Drawing.Size(180, 49);
+            this.btnDBVBandLoad.TabIndex = 10;
+            this.btnDBVBandLoad.Text = "Load";
+            this.btnDBVBandLoad.UseVisualStyleBackColor = true;
+            // 
             // rBtn
             // 
             this.rBtn.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
@@ -69,36 +95,10 @@
             this.rBtn.Text = "Read";
             this.rBtn.UseVisualStyleBackColor = true;
             // 
-            // btnDBVBandLoad
-            // 
-            this.btnDBVBandLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDBVBandLoad.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold);
-            this.btnDBVBandLoad.Location = new System.Drawing.Point(243, 141);
-            this.btnDBVBandLoad.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btnDBVBandLoad.Name = "btnDBVBandLoad";
-            this.btnDBVBandLoad.Size = new System.Drawing.Size(180, 49);
-            this.btnDBVBandLoad.TabIndex = 10;
-            this.btnDBVBandLoad.Text = "Load";
-            this.btnDBVBandLoad.UseVisualStyleBackColor = true;
-            // 
-            // uiGroupBox1
-            // 
-            this.uiGroupBox1.Controls.Add(this.btnRead);
-            this.uiGroupBox1.Controls.Add(this.btnDBVBandLoad);
-            this.uiGroupBox1.Controls.Add(this.rBtn);
-            this.uiGroupBox1.Location = new System.Drawing.Point(91, 12);
-            this.uiGroupBox1.Name = "uiGroupBox1";
-            this.uiGroupBox1.Size = new System.Drawing.Size(639, 257);
-            this.uiGroupBox1.TabIndex = 11;
-            this.uiGroupBox1.TabStop = false;
-            this.uiGroupBox1.Text = "uiGroupBox1";
-            this.uiGroupBox1.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.uiGroupBox1.TitleFont = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Bold);
-            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.uiGroupBox1);
             this.Name = "Form2";

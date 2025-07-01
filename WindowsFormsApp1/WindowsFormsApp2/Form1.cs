@@ -1,4 +1,4 @@
-﻿using FontAwesome.Sharp;
+using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -86,7 +86,7 @@ namespace WindowsFormsApp2
         private void iconButton1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color1);
-            OpenChildFrm(new Form());
+            OpenChildFrm(new Form3());
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
